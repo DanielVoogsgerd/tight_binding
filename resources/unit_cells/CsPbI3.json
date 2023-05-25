@@ -1,0 +1,31 @@
+{
+  "lattice": [
+      [1, 0, 0],
+      [0, 1, 0],
+      [0, 0, 1]
+  ],
+  "basis": [
+    {
+      "type": "Pb",
+      "positions": [[0, 0, 0]],
+      "valence_orbitals": ["s"],
+      "conductance_orbitals": ["p"]
+    },
+    {
+      "type": "I",
+      "positions": [
+        [0.5, 0, 0],
+        [0, 0.5, 0],
+        [0, 0, 0.5]
+      ],
+      "valence_orbitals": ["p"],
+      "conductance_orbitals": []
+    }
+  ],
+  "brillouin_zone": {
+    "\\Gamma": [0, 0, 0],
+    "M": [0.5, 0.5, 0],
+    "R": [0.5, 0.5, 0.5],
+    "X": [0, 0.5, 0]
+  }
+}
